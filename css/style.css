@@ -3,3 +3,88 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(252, 245, 236);
+    font-family: "inter";
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cabeca {
+    background: linear-gradient(135deg, #5A00FF, #00C2FF);
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;     
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    color: white;
+    gap: 185px;
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 2px;
+    width: 50%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.busca input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+input::placeholder{
+    color: rgb(177, 176, 176);
+}
+.busca ion-icon{
+    color: white;
+    margin-right: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.article-card{
+    width: 50%;
+    max-height: fit-content;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 8px;
+}
+.data{
+    display: flex;
+    justify-content: space-between;
+}
