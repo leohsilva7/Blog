@@ -11,7 +11,7 @@ li{
     list-style: none;
     text-decoration: none;
 }
-a{
+.nav-menu ul li a{
     text-decoration: none;
     color: white;
 }
@@ -50,7 +50,7 @@ a{
     outline: none;
     flex: 1;
     padding: 5px;
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color:transparent;
 }
 input::placeholder{
     color: rgb(177, 176, 176);
@@ -87,4 +87,9 @@ input::placeholder{
 .data{
     display: flex;
     justify-content: space-between;
+}
+.article-card a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
