@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notícia do G1</title>
     
+    <link rel="stylesheet" href="./css/noticia.css">
 </head>
 <body>
-    <header>
-        <h1>G1 - Últimas Notícias</h1>
+    <header class="cabeca">
+        <nav class="nav-menu">
+            <h1>SENAI</h1>
+
+            <ul>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+
+    <div class="busca">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="search" name="asa" id="busca" placeholder="Pesquisar no blog">
+        </div>
     </header>
 
-    <div>
-        <h2> Empresário que cometeu assassinato - Manchete de Hoje</h2>
-        <img src="imgs/unnamed.jpg" alt="Imagem ilustrativa" width="50%" height="auto">
-        <p><strong>Subtítulo: Empresário confessa que matou gari durante discussão de trânsito em Belo Horizonte</strong> <br>
-            O empresário Renê Nogueira Júnior, 47 anos, confessou ter matado o gari Laudemir Fernandes, 44, no Vista Alegre, em BH. Segundo fontes ligadas à investigação, a confissão foi realizada em depoimento no Departamento de Homicídios e de Proteção à Pessoa (DHPP), nesta segunda-feira (18). A informação foi confirmada oficialmente pela Polícia. Durante o interrogatório, o empresário informou que atirou contra o gari Laudemir durante uma discussão de trânsito e que cometeu o crime de homicídio. Disse também que a esposa dele, a delegada Ana Paula Lamego Balbino Nogueira, não tinha conhecimento de que ele pegou a arma. Ele informou, ainda, que esta foi a primeira vez que ele usou o armamento dela.</p>
-    </div>
-    <footer>
-        <p>© 2025 G1 - Todos os direitos reservados.</p>
-    </footer>
+    <main class="content">
+        <article class="news-card">
+            <h1>Passou na TV: veja informações adicionais das reportagens da TV TEM Bauru em agosto de 2025</h1>
+            <p class="news-highlight">Saiba os endereços, telefones e sites citados nas reportagens exibidas nos telejornais da TV TEM nas regiões de Bauru e Marília (SP).</p>
+            <img src="./imgs/g1-bau-e-mar-15-.jpg" alt="Imagem da noticia">
+            <p class="news-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, quo harum. Alias totam, ut nostrum facere aperiam magnam aliquid rem natus fuga nesciunt, eaque consequuntur id similique repellendus omnis eius commodi. Quam error, accusamus illo corporis quasi ab molestiae aut maxime itaque accusantium cupiditate quisquam dolores minus hic perferendis odit? Molestias voluptatum nam asperiores itaque laborum aliquam pariatur ut id corrupti vero ducimus, iure velit dicta ullam facere minus quae maiores earum culpa corporis? Eaque similique asperiores quisquam iusto a libero rem, suscipit ratione earum laborum! Quos cum blanditiis a non, sunt incidunt. Quibusdam deserunt aperiam libero, ad architecto odio!</p>
+        </article>
+    </main>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
